@@ -3,14 +3,13 @@
 */
 .sunset-general-form,
 .sunset-sidebar-preview {
-    display: inline-block;
-    float: left;
 }
 
 .sunset-sidebar-preview {
     width: 280px;
     background-color: #1F1F1F;
     padding: 20px;
+    border-radius: 5px;
     text-align: center;
     margin-right: 20px;
 }
@@ -34,4 +33,14 @@ h1.sunset-username {
 h2.sunset-description {
     font-size: 13px;
     margin: 0 0 20px;
+}
+
+.profile-picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
 }
